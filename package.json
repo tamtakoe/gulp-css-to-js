@@ -1,0 +1,30 @@
+{
+  "name": "gulp-css-to-js",
+  "description": "convert css to js which makes style tag",
+  "version": "0.0.1",
+  "repository": "tamtakoe/gulp-css-to-js",
+  "author": "tamtakoe <tamtakoe@gmail.com>",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin", "css2js"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^0.6.3",
+    "js-string-escape": "^0.0.1"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "bugs": {
+    "url": "https://github.com/tamtakoe/gulp-css-to-js/issues"
+  },
+  "homepage": "https://github.com/tamtakoe/gulp-css-to-js",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
