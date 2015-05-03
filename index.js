@@ -1,4 +1,3 @@
-var path      = require("path");
 var through   = require('through2');
 var escapeStr = require('js-string-escape');
 
