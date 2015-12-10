@@ -21,6 +21,15 @@ var styleStream = gulp.src('src/**/*.css')
 merge(scriptStream, styleStream)
     .pipe(concat('script.js'))
 //the script.js will insert styles in DOM by running document.createElement('style')
+
+// or
+var styleStream = gulp.src('src/**/*.css')
+    .pipe(cssToJs({ variable: 'window.theme1' }));
+
+merge(scriptStream, styleStream)
+    .pipe(concat('script.js'))
+//the script.js will have a string variable contains css. it looks like this
+// window.theme1='/* My css content*/';
 ```
 
 
