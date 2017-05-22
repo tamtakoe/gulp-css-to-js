@@ -1,14 +1,15 @@
 {
   "name": "gulp-css-to-js",
   "description": "convert css to js which makes style tag",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "tamtakoe/gulp-css-to-js",
   "author": "tamtakoe <tamtakoe@gmail.com>",
   "files": [
     "index.js"
   ],
   "keywords": [
-    "gulpplugin", "css2js"
+    "gulpplugin",
+    "css2js"
   ],
   "license": "MIT",
   "dependencies": {
